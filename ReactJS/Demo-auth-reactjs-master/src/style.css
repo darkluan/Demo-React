@@ -1,0 +1,18 @@
+.container {
+    width: 1170px;
+position: relative;
+    margin: 0 auto;
+}
+.inputbox{
+   margin-top: 10px
+}
+.inputbox label{width: 80px;float: left}
+
+.row .col-4{width: 33%;float: left}
+
+.row>[class^=col-] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
